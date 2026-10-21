@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receta casera de Ramen</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav><a href="../index.html">Volver al inicio</a></nav>
@@ -14,7 +17,7 @@
       <img src="images/ramen-casero.jpg" alt="Bol de ramen casero">
   </header>
 
-  <nav>
+  <div id="indice">
     <h2>Índice</h2>
     <ol>
       <li><a href="#ingredientes">Ingredientes</a></li>
@@ -22,58 +25,81 @@
       <li><a href="#video">Vídeo</a></li>
       <li><a href="#opiniones">Tu opinión</a></li>
     </ol>
-  </nav>
+  </div>
 
   <hr>
 
-  <div>
-    <p id="ingredientes">
+  <div id="ingredientes">
       <h2>Ingredientes</h2>
-    Ingredientes para preparar el caldo
+    <em><b>Ingredientes para preparar el caldo</b></em>
     <ul>
       <li>2 zanahorias</li>
-      <li>1 kg carcasas de pollo</li>
+      <li><strong>1 kg carcasas de pollo</strong></li>
       <li>2 cebolletas</li>
       <li>2 dientes de ajo</li>
-      <li>1 cm jengibre fresco pelado</li>
+      <li><strong>1 cm jengibre fresco pelado</strong></li>
       <li>3 litros agua</li>
       <li>2 cucharadas sal</li>
     </ul>
-    Ingredientes para la salsa Kaeshi
+    <em><b>Ingredientes para la salsa Kaeshi</b></em>
     <ul>
-      <li>4 cucharadas pasta miso rojo</li>
-      <li>1 cucharada aceite de sésamo</li>
+      <li><strong>4 cucharadas pasta miso rojo</strong></li>
+      <li><strong>1 cucharada aceite de sésamo</strong></li>
       <li>1 cucharada mirin</li>
       <li>1 cucharada jengibre rallado</li>
       <li>1 cucharada ajo rallado</li>
     </ul>   
-    Ingredientes para el ramen
+    <em><b>Ingredientes para el ramen</b></em>
     <ul>
-      <li>400 gr fideos (soba u udon)</li>
-      <li>4 huevos cocidos</li>
-      <li>400 gr cerdo o pechuga asada</li>
+      <li><strong>400 gr fideos (soba u udon)</strong></li>
+      <li><strong>4 huevos cocidos</strong></li>
+      <li><strong>400 gr cerdo o pechuga asada</strong></li>
     </ul>
-    Ingredientes para el acompañamiento
+    <em><b>Ingredientes para el acompañamiento</b></em>
     <ul>
       <li>1 cebollino</li>
       <li>1 narutomaki</li>
       <li>1 hoja alga nori</li>
       <li>1 brotes de espinacas</li>
     </ul>
-    Ingredientes opcionales
+    <em><b>Ingredientes opcionales</b></em>
     <ul>
       <li>2 setas shitake</li>
       <li>1 cilantro fresco</li>
       <li>4 brotes de soja o bambú</li>
       <li>1 guindilla (para hacerlo picante)</li>
     </ul>
-    </p>
+    <h3>Resumen de ingredientes</h3>
+
+    <table>
+        <tr>
+            <th>Categoría</th>
+            <th>Ingredientes principales</th>
+        </tr>
+        <tr>
+            <td>Caldo</td>
+            <td>Carcasas de pollo, cebolletas, zanahoria, ajo, jengibre, agua y sal</td>
+        </tr>
+        <tr>
+            <td>Kaeshi</td>
+            <td>Miso rojo, aceite de sésamo, mirin, jengibre rallado, ajo rallado</td>
+        </tr>
+        <tr>
+            <td>Ramen</td>
+            <td>Fideos, huevos, cerdo</td>
+        </tr>
+        <tr>
+            <td>Acompañamiento</td>
+            <td>Narutomaki, alga nori, cebollino y espinacas</td>
+        </tr>
+    </table>
+    </div>
 
     <hr>
 
-    <p id="elaboracion">
+    <div id="elaboracion">
       <h2>Elaboración paso a paso</h2>
-        Preparación del caldo
+        <i><u>Preparación del caldo</u></i>
         <ol>
             <li>
                 Retiramos los trozos grandes de piel y de grasa que puedan quedar en la carcasa del pollo y la colocamos en una olla junto al resto de los ingredientes del caldo.
@@ -86,6 +112,8 @@
             </li>
             <li>
                 Una vez pasado el tiempo, tenemos que tapar la olla y lo dejamos cocer a fuego lento durante 3 horas.
+                <br>
+                <img src="./images/como-hacer-caldo-de-ramen.jpg" alt="Caldo de ramen" width="200">
             </li>
             <li>
                 Cuando haya pasado el tiempo se retira del fuego, se cola el caldo y se deja enfriar para después desengrasarlo. Será muy fácil, ya que cuando esté frio la grasa se solidifica en la superficie.
@@ -94,7 +122,7 @@
                 Puedes retirar la carne que haya sobrado en el pollo. Una recomendación es guardarla para preparar unas croquetas. 
             </li>
         </ol>
-        Preparación del cerdo asado
+        <i><u>Preparación del cerdo asado</u></i>
         <ol>
             <li>
                 Está claro que cuanto mejor sea la carne asada, mejor sabrá. Este es uno de los puntos importantes que tienes que tener en cuenta para saber cómo hacer ramen casero.
@@ -106,10 +134,12 @@
                 Se pueden mezclar carnes de distintos tipos, como pulled pork con filetes de lomo, o bien, puedes dejar que tu antojo sea el que hable y colocar las porciones de carne que desees. Como por ejemplo pollo, ternera, cordero...
             </li>
         </ol>
-        Preparación del ramen
+        <i><u>Preparación del ramen</u></i>
         <ol>
             <li>
                 Tendremos que preparar el narutomaki, que se recomienda prepararlo un día antes para que esté frío. También puedes utilizar palitos de cangrejo. 
+                <br>
+                <img src="./images/receta-narutomaki-facil.jpg" alt="Narutomaki" width="200">
             </li>
             <li>
                 Lo primero de todo es cocer los huevos. Te llevará unos 10 minutos aproximadamente.
@@ -127,7 +157,7 @@
                 Para montarlo correctamente, en el fondo de un bol o un plato profundo, se coloca una cucharada de kaeshi, una ración de fideos, una ración de caldo, un huevo cortado a la mitad y trozos de cerdo asado.
             </li>
         </ol>
-        Preparación del acompañamiento
+        <i><u>Preparación del acompañamiento</u></i>
         <ol>
             <li>
                 Usa unas cuantas rebanadas de narutomaki, sin ellas no será lo mismo, pero si no lo quieres preparar en tu casa lo puedes sustituir con algo de surimi.
@@ -136,22 +166,29 @@
                 Acompaña con unas tiras de alga nori, brotes tiernos, pudiendo ser de acelga roja o de espinaca y 2 cucharaditas de cebollino picado.
             </li>
         </ol>
-        Preparación del kaeshi
+        <i><u>Preparación del kaeshi</u></i>
         <ol>
             <li>
                 El kaeshi se utiliza como base de salsa para cocinar el ramen. Pincha aquí para ver la receta del kaeshi de forma sencilla.
             </li>
         </ol>
-</p>
+  </div>
     <hr>
 
-    <p id="video">
-      <h2>Video de preparación</h2>
-      <!-- iframe o video -->
-    </p>
+    <div id="video">
+        <section>
+            <h2>Vídeo de la preparación</h2>
+
+            <a href="https://www.youtube.com/watch?v=pSLaxUnvy2o" target="_blank">
+                <img src="./images/photo-1638866281450-3933540af86a.jpg" alt="Vídeo de la receta de ramen" width="600">
+            </a>
+
+            <p>Haz clic en la imagen para ver el vídeo completo.</p>
+        </section>
+  </div>
     <hr>
 
-    <p id="opiniones">
+    <div id="opiniones">
       <h2>Tu opinión</h2>
       <h3>¿Qué te ha parecido la receta?</h3>
         <form action="#" method="POST">
@@ -185,8 +222,7 @@
 
             <button type="submit">Enviar valoración</button>
         </form>
-    </p>
-  </div>
+    </div>
 
   <hr>
 

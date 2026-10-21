@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento</title>
+    <style type="text/css">
+        /* .container {
+            position: relative;
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+        }
+        .presibling {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        .target {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+        .postbling {
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: blue; 
+        }*/
+        div {
+            border: 1px solid black;
+            margin: 8px;
+        }
+        .child {
+            width: 200px;
+            height: 20px;
+        }
+        .container {
+            width: 218px;
+        }
+        .extra {
+            height: 4096px;
+            }
+            .target1 {
+                position: fixed;
+                top: 6px;
+                right: 6px;
+            }
+            .target2 {
+                position: fixed;
+                top: -40px;
+                left: 56px;
+            }
+     </style>
+</head>
+<body>
+    
+</body>
+    <div class="container">
+        <div class="child presibling">    </div>
+        <div class="child target1">    </div>
+        <div class="child target2">    </div>
+        <div class="postbling">    </div>
+
+    </div>
+</html>

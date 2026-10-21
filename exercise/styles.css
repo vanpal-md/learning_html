@@ -1,0 +1,106 @@
+ body{
+    background-color: #f8f4ec;
+    color:#1f1f1f;
+    font-family: "Poppins", sans-serif;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+}
+header{
+    text-align:center;
+}
+header img{
+    width:100%;
+    max-width:500px;
+    border-radius:15px;
+}
+h1{
+    font-size:3rem;
+    color:#b33a3a;
+    font-family: "Playfair Display", serif;
+}
+nav{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+    text-align:center;
+    font-size:15px;
+}
+div{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    margin:40px 0;
+    box-shadow:0 2px 12px rgba(0,0,0,.08);
+}
+.ingredients{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+ul{
+    list-style:none;
+    padding:0;
+}
+ul li{
+    padding:8px;
+    border-bottom:1px solid #eee;
+}
+ol img{
+    display:block;
+    margin:20px auto;
+    width:300px;
+    border-radius:12px;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+th{
+    background:#c0392b;
+    color:white;
+}
+th, td{
+    border:1px solid #ddd;
+    padding:12px;
+}
+tr:nth-child(even){
+    background:#f5f5f5;
+}
+form{
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+}
+input[type="text"],
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+button{
+    background:#c0392b;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+button:hover{
+    background:#922e2e;
+}
+footer{
+    text-align:center;
+    background:white;
+    color:black;
+    padding:5px;
+    border-radius:15px;
+}
+/* Si puedes usar Google Fonts:
+
+Títulos → Playfair Display
+Contenido → Poppins */
