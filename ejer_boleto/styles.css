@@ -1,0 +1,53 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.logo-izquierda{
+    width: 180px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.logo-quiniela img{
+    width: 100%;
+    height: auto;
+}
+ .sencillo-multiple{
+width: 600px;
+height: 60px;
+background-color: #4B8FCE;
+color: white;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+padding: 0 30px;
+box-sizing: border-box;
+
+font-family: Arial, sans-serif;
+font-weight: bold;
+}
+/*.titulo h1{
+margin: 0;
+font-size: 2rem;
+letter-spacing: 2px;
+}
+.titulo span{
+font-size: 2rem;
+}
+.logo-derecha{
+width: 180px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo-derecha img{
+width: 100%;
+height: auto;
+} */
